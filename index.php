@@ -220,7 +220,7 @@ $hasParams = !empty($params);
         </main>
 
         <footer>
-            Link Deck &bull; Developed by <a href="https://hajiabdelhafid.com" target="_blank" style="color: inherit; text-decoration: underline;">@hajiabdelhafid</a>
+            Link Deck 
         </footer>
     </div>
 
