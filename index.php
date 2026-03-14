@@ -8,7 +8,11 @@ $params = array_merge($_GET, $_POST);
 
 // Function to fetch 2FA token
 function get2FAToken($secret) {
-    $url = "https://2fa.live/tok/" . urlencode(trim($secret));
+    $secret = trim($secret);
+    if (empty($secret)) {
+        return "Secret is empty";
+    }
+    $url = "https://2fa.live/tok/" . urlencode($secret);
     $ctx = stream_context_create(['http' => ['timeout' => 5]]);
     $response = @file_get_contents($url, false, $ctx);
     
