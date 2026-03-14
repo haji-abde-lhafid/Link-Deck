@@ -36,7 +36,7 @@ $hasParams = !empty($params);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Param Viewer &bull; 2FA</title>
+    <title>Link Deck</title>
     <meta name="description" content="A minimalist utility to view parameters and generate 2FA tokens.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
